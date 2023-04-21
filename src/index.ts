@@ -4,6 +4,7 @@ import { HistoryPage } from "./spa/pages/historyPage";
 import { ProductPage } from "./spa/pages/productPage";
 import { ProductsPage } from "./spa/pages/productsPage";
 import { Router } from "./spa/router";
+import './index.scss';
 const routerOutlet = document.getElementById('routerOutlet') as HTMLElement;
 const appRouter = new Router(routerOutlet, [
     {
